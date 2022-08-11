@@ -4,7 +4,7 @@ body {
 }
 
 .navbar {
-    height: 100px;
+    height: 50px;
     border-bottom: 1px solid black;
 }
 
@@ -49,4 +49,22 @@ body {
 
 #carosalTestomonial img {
     height: 200px;
+}
+
+
+.footer container {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+.footerItems {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
