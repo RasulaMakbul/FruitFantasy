@@ -1,0 +1,52 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    height: 100px;
+    border-bottom: 1px solid black;
+}
+
+.carousel-inner img {
+    height: 500px;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.servicesIdea {
+    margin-top: 200px;
+    display: block;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.testimonial {
+    margin: 300px;
+    width: 600px;
+    display: block;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+
+
+#carosalTestomonial img {
+    height: 200px;
+}
