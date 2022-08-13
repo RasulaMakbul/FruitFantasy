@@ -4,7 +4,7 @@ body {
 }
 
 .navbar {
-    height: 100px;
+    height: 50px;
     border-bottom: 1px solid black;
 }
 
@@ -16,27 +16,92 @@ body {
     margin-right: auto;
 }
 
-.servicesIdea {
-    margin-top: 200px;
-    display: block;
-    padding: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+.swiper{
+    width: 100%;
 }
 
-.products {
-    display: flex;
-    flex-direction: row;
+.servicesIdea {
+    border: 1px solid rgb(221, 172, 172);
+    margin-top: 200px;
+    display: block;
+    text-align: center;
+}
+.servicesIdea section .card .image{
     height: 200px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 200px;
+    border-radius: 50%;
+    padding: 3px;
+    background-color: blueviolet;
+}
 
+.servicesIdea section .card .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3ox solid #fff;
+}
+
+.servicesIdea section .card{
+    position: relative;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    margin: 20px;
+    width: 280px;
+}
+
+.servicesIdea section .card::before{
+    content: "";
+    position: absolute;
+    height: 55%;
+    width: 100%;
+    background-color: blueviolet;
+    border-radius: 20px 20px 0 0;
+}
+
+.servicesIdea section .card .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    position: relative;
+    z-index: 100;
+}
+
+.servicesIdea section .card .product-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.servicesIdea section .card .product-info .name{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.servicesIdea section .card .product-info .details{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.servicesIdea section .card .product-info .ratings{
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.servicesIdea section .card .product-info .ratings i{
+    font-size: 18px;
+    margin: 0 2px;
+    color: blueviolet;
 }
 
 .testimonial {
     margin: 300px;
     width: 600px;
+    object-fit: cover;
     display: block;
     padding: 20px;
     margin-left: auto;
@@ -50,3 +115,22 @@ body {
 #carosalTestomonial img {
     height: 200px;
 }
+
+
+.footer container {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+.footerItems {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+

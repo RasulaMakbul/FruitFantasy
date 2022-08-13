@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 *{
     margin:0;
@@ -48,4 +49,56 @@ body{
     border-radius: 6px;
     padding: 0 22px;
     font-size: 16px;
+=======
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.navbar{
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+
+body{
+    background-image:url(../image/HD-Fruit-Background-Download.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 40px;
+
+}
+
+.EditCategory{
+    width:800px;
+    background-color: rgb(0,0,0,0.8);
+    margin:auto;
+    color: #FFFFFF;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-rafius: 15px 15px 0px 0px;
+}
+
+.name{
+
+    width:800px;
+    background-color: rgb(0,0,0,0.5);
+    margin:auto;
+    color: #FFFFFF;
+    padding: 10px 0px 10px 0px;
+    text-align: left;
+    border-rafius: 15px 15px 0px 0px;
+    
+}
+
+.name{
+    position: center;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+>>>>>>> a78c77168a910a3ecc6a4aac0738648374b755e4
 }
